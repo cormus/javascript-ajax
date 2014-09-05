@@ -1,0 +1,5 @@
+<script src="ajax.js"></script>
+<script>
+    var ajaxClass = new Ajax();
+    ajaxClass.get('testea.php', {foo: 'bar', array: 'testes envio'}, function(data) { alert(data) }, function(){ alert('Error') });
+</script>
